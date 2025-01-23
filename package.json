@@ -1,6 +1,7 @@
 {
-  "name": "miniture",
+  "name": "e-commerce",
   "version": "0.1.0",
+  "author": "Sandeep Kumar Mehta",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",

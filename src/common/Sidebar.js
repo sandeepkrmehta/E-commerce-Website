@@ -44,7 +44,7 @@ const Sidebar = ({ isSidebarOpen, closeSidebar }) => {
         <div className="p-4">
           {cartProducts.length === 0 ? (
             <div className="text-center text-xl font-bold text-gray-600">
-              Your cart is empty!
+              Shopping cart is empty!
             </div>
           ) : (
             <div>

@@ -26,10 +26,6 @@ const Header = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   const { totalItems } = useSelector((state) => state.cart);
 
   return (
@@ -48,14 +44,12 @@ const Header = () => {
             <div className="text-xl font-bold">Furniro</div>
           </div>
 
-          {/* Hamburger Icon for Mobile */}
-          <div className="md:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-3xl">
-              &#9776; {/* Hamburger icon */}
-            </button>
-          </div>
+
 
           {/* Navigation Menu (Mobile Hidden) */}
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
+            Menu
+          </button>
           <div
             className={`md:flex flex-wrap text-base py-3 ${isMenuOpen ? "block" : "hidden"} md:block`}
           >

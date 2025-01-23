@@ -94,7 +94,7 @@ const Shop = () => {
               </div>
 
               <div className="my-4">
-                <h1 className="mb-3 text-3xl font-semibold">By Category</h1>
+                <h1 className="mb-3 text-3xl font-semibold">Category</h1>
 
                 <div>
                   {categoryList.map((category, key) => (
