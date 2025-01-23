@@ -7,9 +7,8 @@ import { IoMdHeartEmpty, IoMdSearch } from "react-icons/io";
 
 const FlashSale = () => {
   const [isModalOpen, setIsModalOpen] = useState(null);
-  const [currentPage, setCurrentPage] = useState(1); // Current page state
-  const productsPerPage = 16; // Number of products per page
-
+  const [currentPage, setCurrentPage] = useState(1); 
+  const productsPerPage = 12; 
   const handleOpen = (productId) => {
     setIsModalOpen(productId);
   };

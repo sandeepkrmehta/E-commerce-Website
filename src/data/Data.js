@@ -39,6 +39,40 @@ export const banners = [
 ];
 
 
+
+export const featuresData = [
+  {
+    icon: "🏆",
+    bgColor: "bg-indigo-200",
+    iconColor: "text-indigo-700",
+    title: "High Quality",
+  },
+  {
+    icon: "✅",
+    bgColor: "bg-green-200",
+    iconColor: "text-green-700",
+    title: "Warranty Protection",
+    description: "Over 2 years",
+  },
+  {
+    icon: "📦",
+    bgColor: "bg-yellow-200",
+    iconColor: "text-yellow-700",
+    title: "Free Shipping",
+    description: "Order over $150",
+  },
+  {
+    icon: "🎧",
+    bgColor: "bg-red-200",
+    iconColor: "text-red-700",
+    title: "24/7 Support",
+    description: "Dedicated support",
+  },
+];
+
+
+
+
 export const category = [
   {
     id: 1,
